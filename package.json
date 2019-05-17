@@ -5,6 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "jest --watch --verbose",
+		"server": "nodemon index.js",
 		"start": "nodemon index.js"
 	},
 	"repository": {
@@ -26,6 +27,7 @@
 	},
 	"devDependencies": {
 		"jest": "^23.6.0",
+		"nodemon": "^1.19.0",
 		"supertest": "^3.3.0"
 	}
 }
